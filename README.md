@@ -1,2 +1,2 @@
-# logo-design-brief
-a logo design brief email template
+# Email-Template
+This is an email template to be used with Outlook
