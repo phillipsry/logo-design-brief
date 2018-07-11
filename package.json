@@ -6,7 +6,8 @@
   "repository": "git@github.com:fritx/gulp-mail.git",
   "main": "./index.js",
   "scripts": {
-    "test": "gulp test", "mail": "gulp mail --production"
+    "test": "gulp test",
+    "mail": "gulp mail --production"
   },
   "keywords": [
     "gulpplugin",
