@@ -1,158 +1,207 @@
+<?php
+$html = <<<EOF
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HCD Email Template</title>
+<meta name="x-apple-disable-message-reformatting">
+</head>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<body>
+  <style>
+    h1 {
+  color: #D1A151;
+  font-family: "Helvetica", arial, sans-serif;
+}
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/app.css">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name=”x-apple-disable-message-reformatting”>
-    <title>Hot Coffey Design- Welcome Email</title>
-    <!-- <style> -->
-  </head>
-  <body style="background-color: #dbdbdb; padding: 0;">
-    <span class="preheader"></span>
-    <div class="wrapper" style="margin: 0px;padding: 0px;width: 100%;">
-    <table class="body" table align="center" style="margin:0 auto;">
-      <tr>
-        <td class="center" align="center" valign="top">
-          <center data-parsed="">
+p {
+  font-family: "Helvetica", arial, sans-serif;
+  line-height: 1.4;
 
-            <table align="center" class="container header float-center"><tbody><tr><td>
-              <table class="row collapse"><tbody><tr>
-                <th class="small-12 large-12 columns first last"><table><tr><th>
-                  <img src="" alt="">
-                </th>
-<th class="expander"></th></tr></table></th>
-              </tr></tbody></table>
-            </td></tr></tbody></table>
+}
 
+.italic {
+  font-family: "Helvetica", arial, sans-serif;
+  color: #000000;
+  font-weight: 900;
+  font-style: italic;
+}
+ul, ol {
+    margin-left: -25px;
+}
+.requests {
+  font-family: "Helvetica", arial, sans-serif;
+  color: #000000;
+  font-weight: normal;
+}
+	body {
+	background: #dbdbdb!important;
+	}
+	.body {
+		background: #dbdbdb!important;
+	background-color: #dbdbdb!important;
+	padding-top: 0px!important;
+	}
+	.contain {
+		max-width: 566px;
+    margin: 0px auto 25px auto;
+    background: #FFF;
+    padding: 30px 30px 80px 30px;
+	}
+	.head-section {
+	text-align: center;
+	}
 
+	.head-section img {
+		padding-bottom: 0px!important;
+	}
+.float-center {
+	display: block;
+	margin: 0 auto;
+	}
+ol {
+  list-style: number;
+  font-family: "Helvetica", arial, sans-serif;
+  color: #000000;
+  font-weight: bold;
+}
+.link {
+	color: #000;
+	}
+ul li {
+  list-style-type: disc;
+  color: #000000;
+  font-weight: normal
+}
 
-            <table align="center" class="container body-drip float-center"><tbody><tr><td>
+.examples {
+  margin: 20px 0 20px 0;
+}
 
-              <table class="spacer"><tbody><tr><td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td></tr></tbody></table>
+.body {
+  padding: 0px 25px 40px 25px;
+}
+  </style>
+  <div class="body">
+	<img src="http://www.hotcoffeydesign.com/wp-content/uploads/2016/02/HCD-logo2015-outlines.png" alt="" align="center" class="float-center">
+	<div class="contain">
+	<div class="head-section"><img style="width: 100%; height: auto; padding-bottom: 50px; margin: auto;" src="http://www.hotcoffeydesign.com/wp-content/uploads/2018/06/hcd-front.jpg"></div>
+ <h1>Logo & Corporate Identity Design Brief</h1>
+ <p class="italic">Helping you stand out from the rest!</p>
+<br>
+<p>To produce the perfect logo design, I need to know exactly what you're looking for. The more information you provide the quicker and simpler the process will be. Here is the information I need from you to start your project:</p>
+<br>
+<hr>
+<br>
 
-              <center data-parsed="">
-                <img src="http://www.hotcoffeydesign.com/wp-content/uploads/2016/02/HCD-logo2015-outlines.png" alt="" align="center" class="float-center">
-              </center>
-
-              <table class="spacer"><tbody><tr><td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td></tr></tbody></table>
-
-              <table class="row"><tbody><tr>
-                <th class="small-12 large-12 columns first last"><table><tr><th>
-                  <h4 class="text-center"></h4>
-                  <p class="text-center"></p>
-                </th>
-<th class="expander"></th></tr></table></th>
-              </tr></tbody></table>
-
-
-
-              <table class="row" style="background-color: #ffffff; padding: 30px 20px 30px 20px; width: 600px; margin: 0px 30px;"><tbody><tr>
-                <th class="small-12 large-12 columns first last"><table><tr><th>
-
-                  <center data-parsed="">
-                    <img style="width: 566px; height: 282px; padding-bottom: 50px;" src="http://www.hotcoffeydesign.com/wp-content/uploads/2018/06/hcd-front.jpg" alt="" align="center" class="float-center">
-                  </center>
-
-                  <h3 style="text-align: left; color: #D2A152; font-size: 24px; font-family: Arial, Helvetica, sans-sefif;">Welcome to Hot Coffey Design!</h3>
-
-<p style="font-family: lato, Helvetica, sans-sefif; text-align: left; line-height: 1.5em; font-weight: 800; font-style: italic;">We’re glad to have you on board!</p><br>
-
-<p style="font-family: lato, Helvetica, sans-sefif; text-align: left; line-height: 1.5em; font-weight: 400;">Hot Coffey Design was founded out of the need for businesses to have a one-stop creative agency where they could get access to all of the marketing resources and tools they need to be successful and stay ahead. We appreciate you choosing us and look forward to helping you by providing you the best in the services we have to offer!
-<br>
-<br>
-Now, before we get started on your project we will need a few things from you first. This will help us to better understand your business and give us what we need to move forward.
-<br>
-<br>
-Below is a list of some items that we require to get started on your project:
-<hr style="margin: 30px 0px;">
-<ol style="text-align: left; font-family: lato, Helvetica, sans-sefif; font-weight: 400; line-height: 1.5em;">
-<li><p style="color: #d2a152; font-weight: 800;">Your logo in vector format if possible</p> – If we are creating the logo then we are good on this one!</li>
-<br>
-<li><p style="color: #d2a152; font-weight: 800;">Your business details</p>
-<br>
--About your company
-<br>
--What you do
-<br>
--What you sell
-<br>
--What services you provide
-<br>
--Your hours of operation
-<br>
--Your location - can people come to your offices to see examples and purchase your services?
-<br>
--Your phone, fax and email address you would like to use for this business
-<br>
--Your social network links – if you have them set up</li>
-<br>
-<li><p style="color: #d2a152; font-weight: 800;">Pictures</p>
--We need all the pictures you have for your
-products/services
-<br>
--All should be categorized in folders
-<br>
--Descriptions of those images</li>
-<br>
-<li><p style="color: #d2a152; font-weight: 800;">Any and all marketing material you have used</p>
-
-– ex. brochures, etc.</li>
-<br>
-<li><p style="color: #d2a152; font-weight: 800;">Your target audience</p>
-
-– the people you are wanting to reach</li>
-<br>
-<li><p style="color: #d2a152; font-weight: 800;">Color schemes you like</p></li>
-<br>
-<li><p style="color: #d2a152; font-weight: 800;">Visual examples of what you like</p>
-
-– 2 or 3 whether getting a website or logo</li>
-<br>
-<li><p style="color: #d2a152; font-weight: 800;">Style Preference</p>
-
-– ex. corporate, creative, sophisticated or clean</li>
-<br>
-<li><p style="color: #d2a152; font-weight: 800;">Type of website</p>
-
-– one page, multi-page or no preference (if required)</li><br></p>
+<ol>
+  <li class="requests">What is your business name?</li>
+  <br>
+  <li class="requests">In a senctence or two, describe what your business does.</li>
+  <br>
+  <li class="requests">Who is your target audience?</li>
+  <br>
+  <li class="requests">Who do you supply your product or service(s) to?</li>
+  <br>
+  <li class="requests">What do you want your logo to achieve?</li>
+  <br>
+  <li class="requests">What message would you like it to convey?</li>
+  <br>
+  <li class="requests">How would you like your logo to "look" or "feel"?</li>
+  <br>
+  <li class="requests">Please supply the exact text that you want included in your logo e.g. the company name and strapline/caption if required.</li>
+  <br>
+  <li class="requests">Select the type of logo you prefer:</li>
+  <img src="http://www.hotcoffeydesign.com/wp-content/uploads/2018/07/brand-types-w391.jpg" alt="types of logos" class="examples">
+  <br>
+  <li class="requests">Do you have any example logos you like? Providing me with examples helps me identify the style and aesthetic you like.</li>
+  <br>
+  <li class="requests">Do you have any specific colors in mind?</li>
+  <br>
+  <li class="requests">Are there any colors you dislike?</li>
+  <br>
+  <li class="requests">Do you have any images, sketches, or documents that might be helpful?</li>
+  <br>
+  <li class="requests">Anything else you'd like to communicate to me about your logo?</li>
+  <br>
+  <li class="requests">If you have ordered stationary please provide your - Full name, job title, office telephone, mobile, email, website url, office address, social pages, company registration number.</li>
+  <br>
 </ol>
-                  <center data-parsed="">
-                    <table class="button success float-center"><tr><td><table><tr><td><a href="#"></a></td></tr></table></td></tr></table>
-                  </center>
-                </th>
-<th class="expander"></th></tr></table></th>
-              </tr></tbody></table>
-
-              <table class="row collapsed footer" align="center"><tbody><tr>
-                <th class="small-12 large-12 columns first last"><table><tr><th>
-                  <table class="spacer"><tbody><tr><td height="16px" style="font-size:16px;line-height:16px; font-family: lato, helvetica, sans-serif;">&#xA0;</td></tr></tbody></table>
-                  <p class="text-center" style="font-family: Arial, Helvetica, sans-sefif; font-weight: 300; ">&copy; 2018 Hot Coffey Design<br>
-                  <a style="color:#d2a152;" href="#"></a><a href="#"></a><a href="#"></a></p>
-                  <center data-parsed="">
-                    <table align="center" class="menu float-center"><tr><td><table><tr>
-                      <th class="menu-item float-center"><a href="undefined"><img src="" alt=""></a></th>
-                      <th class="menu-item float-center"><a href="undefined"><img src="" alt=""></a></th>
-                      <th class="menu-item float-center"><a href="undefined"><img src="" alt=""></a></th>
-                      <th class="menu-item float-center"><a href="undefined"><img src="" alt=""></a></th>
-                      <th class="menu-item float-center"><a href="undefined"><img src="" alt=""></a></th>
-                    </tr></table></td></tr></table>
-                  </center>
-                </th>
-<th class="expander"></th></tr></table></th>
-              </tr></tbody></table>
-
-            </td></tr></tbody></table>
-
-          </center>
-        </td>
-      </tr>
-    </table>
-  </div>
-    <!-- prevent Gmail on iOS font size manipulation -->
-   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
-  </body>
+</div><a style="display: block; margin: 25px auto;color: #000!important;text-decoration: none;text-align: center;" href="http://hotcoffeydesign.com" title="Hot Coffey Design">Hot Coffey Design</a></div>
+</body>
 </html>
+EOF;
+
+// Auth Check
+session_start();
+
+if (isset($_POST['password']) && $_POST['password'] === 'hcd2018Brew!') {
+	$_SESSION['pin'] = 'hcd2018Brew!';
+}
+
+if ( ! isset($_SESSION['pin']) || $_SESSION['pin'] != 'hcd2018Brew!') {
+?>
+<html>
+	<head>
+		<title>HCD Emailer</title>
+	</head>
+	<body>
+		<form method="post">Password: <input type="password" name="password" /> <button>Login</button></form>
+	</body>
+</html>
+<?php
+} else {
+
+	if (isset($_POST['send_to'])) {
+		$to = $_POST['send_to'];
+		$subject = $_POST['subject'];
+		$from = $_POST['send_from'] . ' <' . $_POST['send_from_email'] . '>';
+echo $to . ' sub: ' . $subject . ' -from- ' . $from;
+		// To send HTML mail, the Content-type header must be set
+		$headers  = 'MIME-Version: 1.0' . "\r\n";
+		$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+		// Create email headers
+		$headers .= 'From: '. $from;
+
+		// Compose a simple HTML email message
+
+		// Sending email
+		if(mail($to, $subject, $html, $headers)){
+			echo 'Your mail has been sent successfully.';
+		} else{
+			echo 'Unable to send email. Please try again.';
+		}
+
+
+
+//		$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+//		try {
+//			$mail->isMail();
+//			//Recipients
+//			$mail->setFrom($_POST['send_from_email'], $_POST['send_form']);
+//			$mail->addBCC('coffey@hotcoffeydesign.com');
+//			$mail->isHTML(true);                                  // Set email format to HTML
+//			$mail->Subject = $_POST['subject'];
+//			$mail->Body    = $html;
+//			$mail->AltBody = "Welcome to Hot Coffey Design!\n\nWe’re glad to have you on board!\n\nHot Coffey Design was founded out of the need for businesses to have a one-stop creative agency where they could get access to all of the marketing resources and tools they need to be successful and stay ahead. We appreciate you choosing us and look forward to helping you by providing you the best in the services we have to offer!\n\nNow, before we get started on your project we will need a few things from you first. This will help us to better understand your business and give us what we need to move forward.";
+//			$mail->send();
+//			echo 'Message has been sent';
+//		} catch (Exception $e) {
+//			echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+//		}
+	} else {
+?>
+<html>
+	<head>
+		<title>HCD Emailer</title>
+	</head>
+	<body>
+		<form method="post">Subject: <input type="text" name="subject" /><br/>Send To: <input type="text" name="send_to" /><br/>Send From Name: <input type="text" value="Hot Coffey Design" name="send_from" /><br/>Send From Email: <input type="text" value="no-reply@hotcoffeydesign.com" name="send_from_email" /><br/><button>Send</button></form>
+	</body>
+</html>
+<?php
+	}
+
+}
